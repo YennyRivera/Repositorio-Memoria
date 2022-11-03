@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div_titulo{
+    margin-top: 120px;
+    text-align: center;
+    color: #02253d;
+
+}
+
+.principal_container {
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100vh;
+    min-height: 350px !important;
+    margin-top: 20px;
+    padding: 25px;
+    justify-content: center;
+}
+.nav_container{
+    width: 100vh;
+}
+
+.header-flex{
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+	}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #02253d;
+    
+    
+}
+
+.logo {
+    width: 90px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+.container p{
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.carousel{
+    margin-top: 20px;
+    width: 820px;
+    height: 450px;
+}
+.carousel-item img {
+    width: 820px;
+    height: 450px;
+}
+
+#img1{
+    width: 380px;
+    height: 250px;
+    align-self: center !important;
+    justify-self: end !important;
+}
+footer{
+   background: #02253d;
+    
+}
+.footer_logo{
+    max-width: 350px;
+    max-height: 200px;
+}

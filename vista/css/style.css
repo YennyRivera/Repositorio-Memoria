@@ -1,0 +1,148 @@
+.row {
+    --bs-gutter-x: -4rem;
+	margin-left: 0px;
+	
+}
+
+/*tamaño del cuerpo*/
+.containerimg{
+	width: 100%;
+	padding: 0px;
+	z-index: 1;
+}
+
+.header-flex{
+	width: 100%;
+	position: fixed;
+	z-index: 4;
+	}
+
+.boton_form{
+	background-color: #ffffff;
+	padding: 15px;
+	z-index: 2;
+	}
+
+.modal{
+	background-color: #ffffff;
+}
+
+.modal-header{
+justify-content: space-around;
+}
+
+.modal-body{
+	padding: 0%;
+}
+
+.modal-body img {
+    width: 470px;
+    height: 265px;
+    margin-top: 5px;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+.Titulo_lateral{
+	margin-left: 15px;
+}
+
+.load {
+	height: 450px;
+}
+
+.brandSection{
+	height: 150px; 
+	overflow-y: auto; 
+	overflow-x: hidden;
+}
+.product p{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product img{
+	width: 275px;
+	height: 180px;
+	margin-top: 5px;
+}
+.product a{
+	font-size: 16px;
+}
+#contenedor-producto{
+	position: relative;
+	width: 27%;
+	height: 310px;
+	display: flex;
+	margin-left: 45px;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid #000;*/
+	margin-bottom: 26px;
+	background-color: rgba(248, 247, 247, 0.692);
+	box-shadow: 5px 5px 10px #999;
+	border-radius: 10px;
+}
+.list-group label{
+
+	color: F1731C;
+	font-size: 16px;
+}
+.list-group h3{
+	color: #02253d;
+	font-weight: bold;
+}
+.col-md-3{
+	background: rgba(248, 247, 247, 0.692);
+	box-shadow: 5px 5px 10px #999;
+	max-height: 700px;
+	padding: 0;
+	margin: 0;
+	z-index: 4;
+}
+
+
+.col-md-3{
+	box-sizing: border-box;
+	width: max(8%, 300px);
+	display: inline-block;
+	position: fixed; padding-top: 10px;
+	margin-top: 120px;
+	}
+
+
+	.col-md-9{
+		margin-left: max(5%,350px);
+height: 100%;
+text-align: justify;
+background:white;
+margin-top: 200px;
+		}
+
+
+
+.list-group-item {
+	background: white;
+	border-bottom: none;
+	border-top: none;
+	
+	
+}
+
+
+
+
+header{
+    width: 100%;
+	height: 100%;
+   /* height: 110px;*/
+	background-color: #02253d;
+    position: relative;
+}
+
+
+

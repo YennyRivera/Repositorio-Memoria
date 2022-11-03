@@ -1,0 +1,138 @@
+.noTiene{display:none}
+  
+ 
+ .form_boton {
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    background: #02253d;
+    color: #fff;
+
+  }
+ 
+
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    
+    height: 210px;
+    
+
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #02253d;
+}
+
+
+main{
+width: 100%;
+height: auto;
+margin:0 auto;
+
+}
+.lateral{
+box-sizing: border-box;
+width: max(8%, 200px);
+display: inline-block;
+position: fixed; padding-top: 10px;
+background: #fbfdff;
+}
+.principal{
+margin-left: max(5%,195px);
+padding: 0 10px;
+height: 100%;
+text-align: justify;
+background:white;
+}
+/*Hasta aquí ya tenemos un menu lateral fijo,
+ahora viene ponerlo bonito*/
+.lateral header{
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+border-bottom: 1px solid black;
+background: #02253d;
+margin-bottom: 20px;
+}
+
+.lateral header h3{
+    color: #ffffff;
+    }
+
+.lateral ul{
+list-style:none;
+padding-left:0;
+margin-top:0;
+margin-left: 10px;
+}
+.lateral ul li{
+display:block;
+position: relative;
+margin-left:0;
+border-bottom:1px solid #02253d;
+}
+
+.lateral ul li a{
+color: black;
+text-decoration:none;
+}
+.lateral ul li a:after{
+content: ' ';
+position:absolute;
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+}
+.lateral ul li:hover, .lateral ul li:hover a{
+background: #02253d;
+color: white;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 20px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
