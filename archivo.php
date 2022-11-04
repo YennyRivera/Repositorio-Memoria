@@ -19,7 +19,7 @@
     <script src="js/search.js"></script>
     
     <link rel="icon" href="logo/logoM.png">
-    <title>Busqueda fotos</title>
+    <title>Busqueda fotos cargadas</title>
 </head>
 <body>
 

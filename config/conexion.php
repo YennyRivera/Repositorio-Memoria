@@ -1,6 +1,6 @@
 <?php 
  
- $conexion = new mysqli("localhost","root","","memoria");
+ $conexion = new mysqli("localhost","root","","root");
 
     if($conexion){
     }
